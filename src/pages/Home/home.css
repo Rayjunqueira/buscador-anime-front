@@ -1,0 +1,15 @@
+.homeSearch {
+    align-items: center;
+    text-align: center;
+}
+
+.animesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    list-style: none;
+    grid-gap: 1.5rem;
+}
+
+.animesList img {
+    max-width: 100%;
+}
